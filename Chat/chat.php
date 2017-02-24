@@ -1,6 +1,6 @@
 <?php 
 	//Connect to server and database
-	$conn=new mysqli("localhost", "root","","chat");
+	$conn=new mysqli("localhost", "root","","first_db");
 	//Checking Connection eshtablished or not
 	if ($conn->connect_error) {
 		die("Connection Failed" . $conn->connect_error);
